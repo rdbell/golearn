@@ -2,8 +2,9 @@ package naive
 
 import (
 	"fmt"
-	"github.com/sjwhitworth/golearn/base"
 	"math"
+
+	"github.com/rdbell/golearn/base"
 )
 
 // A Bernoulli Naive Bayes Classifier. Naive Bayes classifiers assumes

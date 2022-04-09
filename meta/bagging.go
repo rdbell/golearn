@@ -2,11 +2,12 @@ package meta
 
 import (
 	"fmt"
-	"github.com/sjwhitworth/golearn/base"
 	"math/rand"
 	"runtime"
 	"strings"
 	"sync"
+
+	"github.com/rdbell/golearn/base"
 )
 
 // BaggedModel trains base.Classifiers on subsets of the original

@@ -3,9 +3,10 @@ package linear_models
 import (
 	"errors"
 
-	"github.com/sjwhitworth/golearn/base"
+	"github.com/rdbell/golearn/base"
 
 	"fmt"
+
 	_ "github.com/gonum/blas"
 	"gonum.org/v1/gonum/mat"
 )

@@ -1,9 +1,10 @@
 package evaluation
 
 import (
-	"github.com/sjwhitworth/golearn/base"
-	. "github.com/smartystreets/goconvey/convey"
 	"testing"
+
+	"github.com/rdbell/golearn/base"
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func TestMetrics(t *testing.T) {

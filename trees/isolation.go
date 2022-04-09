@@ -4,7 +4,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/sjwhitworth/golearn/base"
+	"github.com/rdbell/golearn/base"
 )
 
 type IsolationForest struct {

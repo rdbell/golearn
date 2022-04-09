@@ -2,8 +2,9 @@ package filters
 
 import (
 	"fmt"
-	"github.com/sjwhitworth/golearn/base"
 	"testing"
+
+	"github.com/rdbell/golearn/base"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

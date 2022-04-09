@@ -2,12 +2,13 @@ package clustering
 
 import (
 	"errors"
-	"github.com/sjwhitworth/golearn/base"
+	"math"
+	"math/rand"
+
+	"github.com/rdbell/golearn/base"
 	"gonum.org/v1/gonum/mat"
 	"gonum.org/v1/gonum/stat"
 	"gonum.org/v1/gonum/stat/distmv"
-	"math"
-	"math/rand"
 )
 
 var (

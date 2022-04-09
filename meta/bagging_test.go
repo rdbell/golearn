@@ -5,13 +5,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sjwhitworth/golearn/base"
-	"github.com/sjwhitworth/golearn/evaluation"
-	"github.com/sjwhitworth/golearn/filters"
-	"github.com/sjwhitworth/golearn/trees"
-	. "github.com/smartystreets/goconvey/convey"
 	"io/ioutil"
 	"os"
+
+	"github.com/rdbell/golearn/base"
+	"github.com/rdbell/golearn/evaluation"
+	"github.com/rdbell/golearn/filters"
+	"github.com/rdbell/golearn/trees"
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func BenchmarkBaggingRandomForestFit(t *testing.B) {

@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/sjwhitworth/golearn/base"
-	"github.com/sjwhitworth/golearn/meta"
-	"github.com/sjwhitworth/golearn/trees"
+	"github.com/rdbell/golearn/base"
+	"github.com/rdbell/golearn/meta"
+	"github.com/rdbell/golearn/trees"
 )
 
 // RandomForest classifies instances using an ensemble

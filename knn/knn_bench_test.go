@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/sjwhitworth/golearn/base"
-	"github.com/sjwhitworth/golearn/evaluation"
+	"github.com/rdbell/golearn/base"
+	"github.com/rdbell/golearn/evaluation"
 )
 
 func readMnist() (*base.DenseInstances, *base.DenseInstances) {

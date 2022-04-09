@@ -1,9 +1,10 @@
 package linear_models
 
 import (
-	"github.com/sjwhitworth/golearn/base"
-	. "github.com/smartystreets/goconvey/convey"
 	"testing"
+
+	"github.com/rdbell/golearn/base"
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func TestLogistic(t *testing.T) {

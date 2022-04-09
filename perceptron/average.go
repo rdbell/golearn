@@ -1,8 +1,9 @@
 package perceptron
 
 import (
-	base "github.com/sjwhitworth/golearn/base"
 	"math"
+
+	base "github.com/rdbell/golearn/base"
 )
 
 const MaxEpochs = 10

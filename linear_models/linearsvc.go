@@ -5,10 +5,11 @@ import "C"
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/sjwhitworth/golearn/base"
 	"io/ioutil"
 	"os"
 	"unsafe"
+
+	"github.com/rdbell/golearn/base"
 )
 
 // LinearSVCParams represnts all available LinearSVC options.
